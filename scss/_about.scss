@@ -1,0 +1,12 @@
+.about-section {
+  padding-top: 5rem;
+  background: linear-gradient(to bottom, $black 0%,#{fade-out($black, .1)} 75%,#{fade-out($black, .2)} 100%);
+  p {
+    margin-bottom: 5rem;
+  }
+  img{
+    min-height: 200px;
+    max-height: 400px;
+    padding-bottom: 5rem;
+  }
+}
